@@ -9,10 +9,10 @@
     </button>
     <ul class="header-nav mr-auto">
       <li class="nav-item active">
-        <RouterLink id="ko" to="/dinner">DINNERS</RouterLink>
+        <router-link id="ko" class="nav-link" to="/">DINNERS</router-link>
       </li>
       <li class="nav-item">
-        <a id="lk" class="nav-link" href="#">LUNCH</a>
+        <router-link id="lk" to="/lu" class="nav-link" href="#">LUNCH</router-link>
       </li>
       <li class="nav-item dropdown">
         <a  class="nav-link dropdown-toggle" href="#" id="headerDropdown" role="button" data-coreui-toggle="dropdown" aria-expanded="false">

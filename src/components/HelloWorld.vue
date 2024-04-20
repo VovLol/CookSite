@@ -8,11 +8,11 @@
     <span class="header-toggler-icon"></span>
   </button>
   <ul class="header-nav mr-auto">
-    <li class="nav-item active">
-      <RouterLink id="ko" class="nav-link" to="/dinner">DINNERS <span class="visually-hidden">(current)</span></RouterLink>
+    <li class="nav-item">
+      <router-link  id="ko" class="nav-link" to="/hi">DINNERS</router-link>
     </li>
     <li class="nav-item">
-      <a id="lk" class="nav-link" href="#">LUNCH</a>
+      <router-link id="lk" to="lu" class="nav-link" href="#">LUNCH</router-link>
     </li>
     <li class="nav-item dropdown">
       <a  class="nav-link dropdown-toggle" href="#" id="headerDropdown" role="button" data-coreui-toggle="dropdown" aria-expanded="false">
@@ -64,7 +64,7 @@ export default {
 
 #rah{
   margin-left:800px;
-  margin-bottom: 300px;
+  margin-bottom: 600px;
   
 }
 #top{

@@ -1,14 +1,17 @@
 <template>
-     <HelloWorld />
+  <nav>
+     <MyDinner />
+  </nav>
+  <router-view/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import MyDinner from './components/MyDinner.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    MyDinner
   }
 }
 </script>
