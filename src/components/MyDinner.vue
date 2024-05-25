@@ -26,7 +26,7 @@
         </div>
       </li>
       <li class="nav-item">
-        <a id="kl" class="nav-link" href="#" tabindex="-1" aria-disabled="false">Topic</a>
+        <a id="kl" class="nav-link" href="#" tabindex="-1" aria-disabled="false">LOGIN</a>
       </li>
     </ul>
     <form class="d-flex">

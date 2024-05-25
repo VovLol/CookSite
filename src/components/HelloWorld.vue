@@ -1,12 +1,15 @@
 <template>
+  <body>
 <div class="container">
    <div id="top">
      <h1>Welcome to the DEEPWOKEN COOKS webstie!!! Feel free to roam around!!!!! click on this <a href="#">word</a> to learn more about us</h1>
    </div>
+   <div id="io">
+    
   <img id="col" src="https://i1.sndcdn.com/artworks-hm2szdaXJKdK2Obe-Fut4dg-t500x500.jpg">
- 
   </div>
-  
+  </div>
+  </body>
 </template>
 
 <script>
@@ -21,11 +24,21 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
+body{
+background-color: azure;
+}
+
 #rah{
   margin-left: 500px;
   margin-top: 1000px;
   
 }
+
+#io{
+  border: 10px;
+  border-color: antiquewhite;
+}
+
 #top{
 background-color:  rgb(19, 32, 141);
 border: solid black;
