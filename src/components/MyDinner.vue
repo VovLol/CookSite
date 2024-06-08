@@ -12,21 +12,22 @@
         <router-link id="ko" class="nav-link" to="/lu">DINNERS</router-link>
       </li>
       <li class="nav-item">
-        <router-link id="lk" to="" class="nav-link" href="#">LUNCH</router-link>
+        <router-link id="lk" to="/prob" class="nav-link" href="#">LUNCH</router-link>
       </li>
       <li class="nav-item dropdown">
         <a  class="nav-link dropdown-toggle" href="#" id="headerDropdown" role="button" data-coreui-toggle="dropdown" aria-expanded="false">
           DRINKS
         </a>
         <div class="dropdown-menu" aria-labelledby="headerDropdown">
-          <a class="dropdown-item" href="#">MILKSHAKE</a>
-          <a class="dropdown-item" href="#">SPARKLING WATER</a>
+          <router-link to="/prob" class="dropdown-item" href="#">MILKSHAKE</router-link>
+          <router-link to="/prob" class="dropdown-item" href="#">SPARKLING WATER</router-link>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">OREO MCFLURRY</a>
+          <router-link to="/prob" class="dropdown-item" href="#">OREO MCFLURRY</router-link>
         </div>
       </li>
       <li class="nav-item">
-        <a id="kl" class="nav-link" href="#" tabindex="-1" aria-disabled="false">LOGIN</a>
+    
+        <router-link to="/prob" id="kl" class="nav-link" href="#" tabindex="-1" aria-disabled="false">LOGIN</router-link>
       </li>
     </ul>
     <form class="d-flex">
@@ -36,6 +37,7 @@
   </template>
   
   <script>
+
   export default {
     name: 'MyDinner',
     props: {

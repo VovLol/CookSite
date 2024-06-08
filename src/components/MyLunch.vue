@@ -10,7 +10,9 @@
       <div id="c">
        <h>What's for dinner? Take the work out of searching for an answer to this question with these popular 5-star dinner recipes.</h>
       </div>
-      <img id="t" src="https://gas-kvas.com/grafic/uploads/posts/2024-01/gas-kvas-com-p-logotip-diskord-prozrachnii-fon-1.png">
+      <router-link to="/prob">
+      <img id="t"  src="https://gas-kvas.com/grafic/uploads/posts/2024-01/gas-kvas-com-p-logotip-diskord-prozrachnii-fon-1.png">
+      </router-link>
       <div id="co">
         <h1 id="mn" >This is a HamHamPangPang exclusive weekly sandwich</h1>
         <h1 id="mk">You can order it from our special delivery!</h1>
@@ -25,6 +27,8 @@
   </template>
   
   <script>
+
+
   export default {
     name: 'HelloWorld',
     props: {

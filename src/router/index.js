@@ -4,6 +4,7 @@ import MyDinner from '@/components/MyDinner.vue'
 import HelloWorld from '@/components/HelloWorld.vue'
 import MyLunch from '@/components/MyLunch.vue'
 import DeliveryToYou from '@/components/DeliveryToYou.vue'
+import ProblemGo from '@/components/ProblemGo.vue'
 
 
 const routes = [
@@ -23,6 +24,10 @@ const routes = [
 {
   path: "/de",
   component: DeliveryToYou
+},
+{
+  path: "/prob",
+  component: ProblemGo
 }
 
  
